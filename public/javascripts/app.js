@@ -14,7 +14,7 @@ var mySwiper = new Swiper('.swiper-container', {
     setWrapperSize: true,
     direction: "horizontal",
     speed: 1000,
-    longSwipesRatio: 0.3,
+    longSwipesRatio: 0.2,
     grabCursor: true,
     pagination: '.swiper-pagination',
     paginationClickable: true,
