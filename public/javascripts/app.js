@@ -37,3 +37,9 @@ var mySwiper = new Swiper('.swiper-container', {
         swiperAnimate(swiper);
     }
 });
+
+$(document).ready(function(){
+    document.addEventListener("touchstart",function(){
+        document.getElementById('bgMusic').play();
+    })
+})
