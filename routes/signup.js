@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
             var data = {
                 "data": doc
             };
-
+            console.log(data.data.length)
             res.render('signup', { info: JSON.stringify(data) });
         }
     })
