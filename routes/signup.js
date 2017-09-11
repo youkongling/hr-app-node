@@ -74,7 +74,11 @@ router.post('/', function(req, res, next) {
         }
     })
 
-    res.redirect('/')
+    if (query.center == "技术研发中心") {
+        res.redirect('/scan');
+    } else {
+        res.redirect('/');
+    }
 });
 
 module.exports = router;
